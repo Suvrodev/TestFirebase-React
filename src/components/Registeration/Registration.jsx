@@ -111,7 +111,7 @@ const Registration = () => {
         <input type="text" name="photo" id="photo" placeholder="Photo url" />
         <input type="email" name="email" id="email" placeholder="Email" required />
         <input type={display?"text":"password"}  name="password" id="" placeholder="Password" required />
-        <p onClick={displayPassword}>Show Password</p>
+        <p onClick={displayPassword}> {display?"Hide Password": "Show Password"} </p>
         <div className="terms"><input className="check" onClick={handleTerms} type="checkbox" name="accept" id="accept" /> <p>Accept our terms and condition</p></div>
         <input type="submit" value="Register" disabled={!accept}/>
         <p >Already have an account? go to <Link  to='/login'>Login</Link></p>
