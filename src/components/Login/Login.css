@@ -1,0 +1,55 @@
+button{
+    margin-top: 10px;
+}
+form{
+    width: 550px;
+    border: 1px solid skyblue;
+    padding: 10px;
+    border-radius: 7px;
+    margin: 0 auto;
+}
+input{
+    display: block;
+    width: 90%;
+    height: 35px;
+    padding-left:10px;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+.errorclass{
+    background-color: red;
+    width: 90%;
+    padding: 10px 5px;
+    border-radius: 7px;
+    font-weight: 700;
+}
+.success{
+    background-color: green;
+    width: 90%;
+    padding: 10px 5px;
+    border-radius: 7px;
+    font-weight: 700;
+}
+.verified{
+    color: green;
+    font-weight: 700;
+}
+.nVerified{
+    color: red;
+    font-weight: 700;
+}
+.terms{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green; 
+    gap: 0;  
+}
+.terms p{
+    margin-right: 50px;
+}
+
+.check{
+    width: 20px;
+}

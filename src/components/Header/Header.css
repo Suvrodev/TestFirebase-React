@@ -1,0 +1,28 @@
+.header{
+    background-color: lightseagreen;
+    padding: 20px 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header a{
+    margin-left: 15px;
+    font-size: 20px;
+    color: white;
+}
+.mail{
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.headerbtn{
+    margin-left: 10px;
+}
+.headerPic{
+    width: 30px;
+    height: 30px;
+    border-radius: 50% ;
+}
